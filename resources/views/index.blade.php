@@ -58,6 +58,28 @@
                         </div>
                     </div>
 
+                    <div class="nav-2-tables">
+                        <p>المستخدمين</p>
+                        <div class="nav-2-tables-content">
+                            <a href="">Data Entry</a>
+                            <a href="">المراقبين</a>
+                            <a href="">المندوبين متجولين</a>
+                            <a href="">المندوبين الثابتين</a>
+                            <a href="">المنسقين</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-2-tables">
+                        <p>المستخدمين</p>
+                        <div class="nav-2-tables-content">
+                            <a href="">Data Entry</a>
+                            <a href="">المراقبين</a>
+                            <a href="">المندوبين متجولين</a>
+                            <a href="">المندوبين الثابتين</a>
+                            <a href="">المنسقين</a>
+                        </div>
+                    </div>
+
                 </div>
 
 
