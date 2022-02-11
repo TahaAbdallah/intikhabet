@@ -1,0 +1,159 @@
+@font-face {
+    font-family: boutros;
+    src: url(../fonts/BoutrosART-Medium.otf);
+}
+
+@font-face {
+    font-family: DroidKufi-Bold;
+    src: url(../fonts/DroidKufi-Bold.ttf);
+}
+
+@font-face {
+    font-family: DroidKufi-Regular;
+    src: url(../fonts/DroidKufi-Regular.ttf);
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.main-bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/Untitled-1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+/* ############################################ NAV 1 */
+
+nav {
+    position: relative;
+}
+
+.nav-1 {
+    border-bottom: 2px solid white;
+    background-color: #f00b0e;
+    position: relative;
+    padding: 10px 0px;
+}
+
+.profile-name {
+    font-family: DroidKufi-regular;
+    color: white;
+}
+
+.profile-img-cont {
+    width: 65px;
+    height: 65px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.profile-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.logout-btn {
+    font-family: DroidKufi-regular;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.logout-btn:hover {
+    color: white;
+}
+
+.burger-btn {
+    width: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.close-btn {
+    width: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.show-btn {
+    display: inline-block;
+}
+
+.hide-btn {
+    display: none;
+}
+
+.nav-hide-btn {
+    width: fit-content;
+}
+
+.nav-hide-btn:hover {
+    text-decoration: none;
+}
+
+/* ############################################ NAV 2 */
+
+.nav-2 {
+    border-bottom: 2px solid white;
+    padding: 10px 0px;
+    transition: 0.8s ease-in-out;
+    background-color: #f00b0e;
+    position: absolute;
+    bottom: 85px;
+}
+
+.show-nav-2 {
+    transform: translateY(145%);
+}
+
+.nav-2-tables {
+    text-align: center;
+    border: 1px solid white;
+    margin: 0 15px;
+}
+
+.nav-2-tables p {
+    font-family: DroidKufi-bold;
+    color: #000;
+    font-size: 14px;
+    background-color: #fff;
+    padding: 5px 35px;
+    margin: 0px;
+}
+
+.nav-2-tables a {
+    display: block;
+    color: white;
+    font-family: DroidKufi-regular;
+    font-size: 12px;
+    margin-bottom: 7px;
+    border-bottom: 1px solid #fff;
+}
+
+.nav-2-tables a:hover {
+    text-decoration: none;
+}
+
+.nav-2-tables-content {
+    padding: 5px 15px;
+}
