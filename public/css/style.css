@@ -72,7 +72,7 @@ body {
 }
 
 .login-form input:focus {
-    background: white;
+    background: #fff;
     outline: none;
     border: 3px solid #f00b0f79;
 }
