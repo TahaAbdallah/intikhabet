@@ -28,7 +28,7 @@ body {
 
 .main-bg {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url('../images/Untitled-1.png');
     background-position: center;
     background-size: cover;
@@ -149,6 +149,12 @@ nav {
     color: white;
 }
 
+.role {
+    font-family: DroidKufi-regular;
+    color: white;
+    font-size: 10px;
+}
+
 .profile-img-cont {
     width: 65px;
     height: 65px;
@@ -220,6 +226,12 @@ nav {
     transform: translateY(145%);
 }
 
+@media(max-width:543px) {
+    .show-nav-2 {
+        transform: translateY(130%);
+    }
+}
+
 .nav-2-tables {
     text-align: center;
     border: 1px solid white;
@@ -250,4 +262,123 @@ nav {
 
 .nav-2-tables-content {
     padding: 5px 15px;
+}
+
+
+/* ############################################ MAIN  */
+
+.main-cont {
+    padding-top: 25px;
+}
+
+.main-cont input {
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 7px;
+    padding: 6px 12px;
+    font-family: DroidKufi-regular;
+    font-size: 14px;
+    color: white;
+    text-align: right;
+}
+
+.main-cont input:focus {
+    background: #fff;
+    outline: none;
+    border: 3px solid #f00b0f79;
+    text-align: right;
+    font-family: DroidKufi-regular;
+    font-size: 14px;
+    color: black;
+}
+
+.main-cont input::placeholder {
+    text-align: right;
+    color: white;
+}
+
+.search-bar {
+    width: 50%;
+}
+
+.adding-btn {
+    font-family: DroidKufi-bold;
+    color: black;
+    background-color: #fff;
+    padding: 6px 9px;
+    border-radius: 7px;
+}
+
+.adding-btn:hover {
+    color: #000;
+}
+
+.fa-plus {
+    margin-left: 3px;
+}
+
+.table-title-cont {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px 0px;
+}
+
+.table-title {
+    font-family: DroidKufi-bold;
+    color: #000;
+    margin: 0;
+    font-size: 15px;
+}
+
+.table-content-cont {
+    border: 2px solid white;
+    text-align: center;
+    padding: 20px 5px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin: 0px 20px;
+}
+
+.table-content-title {
+    color: white;
+    font-family: DroidKufi-bold;
+    margin: 5px 7px;
+    font-size: 12px;
+    border-bottom: 1px solid white;
+    line-height: 3;
+}
+
+.table-content-contents {
+    color: white;
+    font-family: DroidKufi-regular;
+    padding: 0px 7px;
+    font-size: 12px;
+}
+
+@media(max-width:955px) {
+    .table-content-title {
+        font-size: 11px;
+        margin: 5px 2px;
+        line-height: normal;
+    }
+
+    .table-content-contents {
+        font-size: 11px;
+    }
+}
+
+@media(max-width:768px) {
+    .table-content-title {
+        font-size: 8px;
+        margin: 0px;
+        line-height: normal;
+    }
+
+    .table-content-contents {
+        font-size: 8px;
+    }
 }
