@@ -52,25 +52,33 @@ body {
     border: 2px solid white;
     margin-top: 50px;
     margin-bottom: 30px;
+    border-radius: 10px;
 }
 
 .login-img {
     width: 100%;
+    border-radius: 10px;
 }
 
 .login-form input {
     display: block;
     margin-bottom: 15px;
     background: white;
-    border: none;
+    border: 3px solid transparent;
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
+    padding: 6px 12px;
 }
 
 .login-form input:focus {
     background: white;
     outline: none;
+    border: 3px solid #f00b0f79;
+}
+
+.login-form input::placeholder {
+    text-align: center;
 }
 
 .login-content {
@@ -85,6 +93,30 @@ body {
     padding: 5px 10px;
     border-radius: 5px;
     transition: 0.8s ease;
+}
+
+.remember-me-cont {
+    margin-bottom: 15px;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 18.857px;
+}
+
+.remember-me {
+    font-family: DroidKufi-Regular;
+    margin: 0;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.forget-password {
+    font-family: DroidKufi-Regular;
+    color: white;
+    font-size: 12px;
+}
+
+.forget-password:hover {
+    color: white;
 }
 
 .login-form button:hover {

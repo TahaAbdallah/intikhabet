@@ -25,8 +25,21 @@
                     <img class="login-img" src="{{ asset('images/lebanonflag.png') }}">
                 </div>
                 <div class="login-content">
-                    <input type="email" name="email" placeholder="your e-mail">
-                    <input type="password" name="password" placeholder="Password">
+                    <input type="email" name="email" placeholder="الرّجاء ادخل الايميل" autofocus>
+                    <input type="password" name="password" placeholder="الباسورد">
+                    <div class="row remember-me-cont">
+                        <div>
+                            @if (Route::has('password.request'))
+                            <a class="forget-password" href="{{ route('password.request') }}">
+                                نسيت كلمة المرور ؟
+                            </a>
+                            @endif
+                        </div>
+                        <div class="row align-items-center">
+                            <input class="m-0" type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}>
+                            <p class="remember-me">تذكّرني</p>
+                        </div>
+                    </div>
                     <button type="submit">تسجيل الدّخول</button>
                 </div>
             </div>
