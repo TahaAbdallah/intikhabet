@@ -47,4 +47,19 @@ class HomeController extends Controller
     {
         return view('addMurakebPage');
     }
+
+    public function addMandubMutajawwelPage()
+    {
+        return view('addMandubMutajawwelPage');
+    }
+
+    public function addMandubSebetPage()
+    {
+        return view('addMandubSebetPage');
+    }
+
+    public function addMunassekPage()
+    {
+        return view('addMunassekPage');
+    }
 }

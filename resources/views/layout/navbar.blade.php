@@ -50,9 +50,9 @@
                     <div class="nav-2-tables-content">
                         <a href="{{ route('addDataEntryPage') }}">Data Entry</a>
                         <a href="{{ route('addMurakebPage') }}">المراقبين</a>
-                        <a href="">المندوبين متجولين</a>
-                        <a href="">المندوبين الثابتين</a>
-                        <a href="">المنسقين</a>
+                        <a href="{{ route('addMandubMutajawwelPage') }}">المندوبين متجولين</a>
+                        <a href="{{ route('addMandubSebetPage') }}">المندوبين الثابتين</a>
+                        <a href="{{ route('addMunassekPage') }}">المنسقين</a>
                     </div>
                 </div>
 

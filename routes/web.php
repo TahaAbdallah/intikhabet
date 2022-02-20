@@ -25,6 +25,9 @@ Route::get('/profile-page', [App\Http\Controllers\HomeController::class, 'profil
 // #### ADDING PAGES
 Route::get('/add-data-entry-page', [App\Http\Controllers\HomeController::class, 'addDataEntryPage'])->name('addDataEntryPage');
 Route::get('/add-murakeb-page', [App\Http\Controllers\HomeController::class, 'addMurakebPage'])->name('addMurakebPage');
+Route::get('/add-mandoub-mutajawwel-page', [App\Http\Controllers\HomeController::class, 'addMandubMutajawwelPage'])->name('addMandubMutajawwelPage');
+Route::get('/add-mandoub-sebet-page', [App\Http\Controllers\HomeController::class, 'addMandubSebetPage'])->name('addMandubSebetPage');
+Route::get('/add-munassek-page', [App\Http\Controllers\HomeController::class, 'addMunassekPage'])->name('addMunassekPage');
 
 
 Route::get('/edit-profile-page', function () {
