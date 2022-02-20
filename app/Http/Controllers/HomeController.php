@@ -23,12 +23,28 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('index');
     }
 
     // ##################### LOGIN
     public function loginPage()
     {
         return view('loginPage');
+    }
+
+    public function profilePage()
+    {
+        return view('profilePage');
+    }
+
+    // ##################### ADDING PAGES
+    public function addDataEntryPage()
+    {
+        return view('addDataEntryPage');
+    }
+
+    public function addMurakebPage()
+    {
+        return view('addMurakebPage');
     }
 }

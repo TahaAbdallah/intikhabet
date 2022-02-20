@@ -13,11 +13,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// #### HOME 
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
+
+// #### LOGIN PAGE
 Route::get('/login-page', [App\Http\Controllers\HomeController::class, 'loginPage'])->name('loginPage');
+Route::get('/profile-page', [App\Http\Controllers\HomeController::class, 'profilePage'])->name('profilePage');
+
+// #### ADDING PAGES
+Route::get('/add-data-entry-page', [App\Http\Controllers\HomeController::class, 'addDataEntryPage'])->name('addDataEntryPage');
+Route::get('/add-murakeb-page', [App\Http\Controllers\HomeController::class, 'addMurakebPage'])->name('addMurakebPage');
+
+
+Route::get('/edit-profile-page', function () {
+    return view('editProfilePage');
+})->name('editProfilePage');
