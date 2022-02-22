@@ -462,6 +462,50 @@ nav {
     background-color: grey;
 }
 
+.delete-td {
+    background-color: #f00b0e;
+    border-top: 1px solid white !important;
+}
+
+.delete-td a {
+    color: white;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+.delete-td a:hover {
+    font-size: 18px;
+}
+
+.delete-without-border-td a {
+    color: white;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+.delete-without-border-td a:hover {
+    font-size: 18px;
+}
+
+.modal-header {
+    direction: rtl;
+    justify-content: space-between;
+}
+
+.modal-header .close {
+    margin: -1rem auto -1rem -1rem
+}
+
+.modal-body p {
+    font-family: DroidKufi-regular;
+    margin: 0px;
+
+}
+
+.modal-footer a {
+    font-family: DroidKufi-bold;
+    color: white !important;
+}
 
 /* ############################################ PROFILE PAGE  */
 

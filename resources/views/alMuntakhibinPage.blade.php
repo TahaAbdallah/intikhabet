@@ -55,6 +55,9 @@
                 <th>
                     <p>انتخب / لم ينتخب</p>
                 </th>
+                <th>
+                    <p>(ازالة)</p>
+                </th>
             </tr>
         </thead>
         <tbody>
@@ -95,43 +98,10 @@
                 <td>
                     <p>انتخب</p>
                 </td>
-            </tr>
-            <tr class="ntakhab">
-                <td scope="row">
-                    <p>طه عبدالله</p>
-                </td>
-                <td>
-                    <p>نضال</p>
-                </td>
-                <td>
-                    <p>ميرنا</p>
-                </td>
-                <td>
-                    <p>ذكر</p>
-                </td>
-                <td>
-                    <p>30/4/1999</p>
-                </td>
-                <td>
-                    <p>مسلم سنّي</p>
-                </td>
-                <td>
-                    <p>71</p>
-                </td>
-                <td>
-                    <p>الشمال</p>
-                </td>
-                <td>
-                    <p>طرابلس</p>
-                </td>
-                <td>
-                    <p>71123456</p>
-                </td>
-                <td>
-                    <p>لا يوجد ملاحظات</p>
-                </td>
-                <td>
-                    <p>انتخب</p>
+                <td class="delete-td">
+                    <p><a data-toggle="modal" data-target="#muntakhebModel"><i class="fa fa-times"
+                                aria-hidden="true"></i></a>
+                    </p>
                 </td>
             </tr>
             <tr class="ntakhab">
@@ -171,43 +141,10 @@
                 <td>
                     <p>انتخب</p>
                 </td>
-            </tr>
-            <tr class="ntakhab">
-                <td scope="row">
-                    <p>طه عبدالله</p>
-                </td>
-                <td>
-                    <p>نضال</p>
-                </td>
-                <td>
-                    <p>ميرنا</p>
-                </td>
-                <td>
-                    <p>ذكر</p>
-                </td>
-                <td>
-                    <p>30/4/1999</p>
-                </td>
-                <td>
-                    <p>مسلم سنّي</p>
-                </td>
-                <td>
-                    <p>71</p>
-                </td>
-                <td>
-                    <p>الشمال</p>
-                </td>
-                <td>
-                    <p>طرابلس</p>
-                </td>
-                <td>
-                    <p>71123456</p>
-                </td>
-                <td>
-                    <p>لا يوجد ملاحظات</p>
-                </td>
-                <td>
-                    <p>انتخب</p>
+                <td class="delete-td">
+                    <p><a data-toggle="modal" data-target="#muntakhebModel"><i class="fa fa-times"
+                                aria-hidden="true"></i></a>
+                    </p>
                 </td>
             </tr>
             <tr class="ntakhab">
@@ -247,43 +184,10 @@
                 <td>
                     <p>انتخب</p>
                 </td>
-            </tr>
-            <tr class="ntakhab">
-                <td scope="row">
-                    <p>طه عبدالله</p>
-                </td>
-                <td>
-                    <p>نضال</p>
-                </td>
-                <td>
-                    <p>ميرنا</p>
-                </td>
-                <td>
-                    <p>ذكر</p>
-                </td>
-                <td>
-                    <p>30/4/1999</p>
-                </td>
-                <td>
-                    <p>مسلم سنّي</p>
-                </td>
-                <td>
-                    <p>71</p>
-                </td>
-                <td>
-                    <p>الشمال</p>
-                </td>
-                <td>
-                    <p>طرابلس</p>
-                </td>
-                <td>
-                    <p>71123456</p>
-                </td>
-                <td>
-                    <p>لا يوجد ملاحظات</p>
-                </td>
-                <td>
-                    <p>انتخب</p>
+                <td class="delete-td">
+                    <p><a data-toggle="modal" data-target="#muntakhebModel"><i class="fa fa-times"
+                                aria-hidden="true"></i></a>
+                    </p>
                 </td>
             </tr>
             <tr class="ntakhab">
@@ -323,43 +227,10 @@
                 <td>
                     <p>انتخب</p>
                 </td>
-            </tr>
-            <tr class="ntakhab">
-                <td scope="row">
-                    <p>طه عبدالله</p>
-                </td>
-                <td>
-                    <p>نضال</p>
-                </td>
-                <td>
-                    <p>ميرنا</p>
-                </td>
-                <td>
-                    <p>ذكر</p>
-                </td>
-                <td>
-                    <p>30/4/1999</p>
-                </td>
-                <td>
-                    <p>مسلم سنّي</p>
-                </td>
-                <td>
-                    <p>71</p>
-                </td>
-                <td>
-                    <p>الشمال</p>
-                </td>
-                <td>
-                    <p>طرابلس</p>
-                </td>
-                <td>
-                    <p>71123456</p>
-                </td>
-                <td>
-                    <p>لا يوجد ملاحظات</p>
-                </td>
-                <td>
-                    <p>انتخب</p>
+                <td class="delete-td">
+                    <p><a data-toggle="modal" data-target="#muntakhebModel"><i class="fa fa-times"
+                                aria-hidden="true"></i></a>
+                    </p>
                 </td>
             </tr>
             <tr class="ntakhab">
@@ -399,6 +270,11 @@
                 <td>
                     <p>انتخب</p>
                 </td>
+                <td class="delete-td">
+                    <p><a data-toggle="modal" data-target="#muntakhebModel"><i class="fa fa-times"
+                                aria-hidden="true"></i></a>
+                    </p>
+                </td>
             </tr>
             <tr class="ntakhab">
                 <td scope="row">
@@ -436,6 +312,183 @@
                 </td>
                 <td>
                     <p>انتخب</p>
+                </td>
+                <td class="delete-td">
+                    <p><a data-toggle="modal" data-target="#muntakhebModel"><i class="fa fa-times"
+                                aria-hidden="true"></i></a>
+                    </p>
+                </td>
+            </tr>
+            <tr class="ntakhab">
+                <td scope="row">
+                    <p>طه عبدالله</p>
+                </td>
+                <td>
+                    <p>نضال</p>
+                </td>
+                <td>
+                    <p>ميرنا</p>
+                </td>
+                <td>
+                    <p>ذكر</p>
+                </td>
+                <td>
+                    <p>30/4/1999</p>
+                </td>
+                <td>
+                    <p>مسلم سنّي</p>
+                </td>
+                <td>
+                    <p>71</p>
+                </td>
+                <td>
+                    <p>الشمال</p>
+                </td>
+                <td>
+                    <p>طرابلس</p>
+                </td>
+                <td>
+                    <p>71123456</p>
+                </td>
+                <td>
+                    <p>لا يوجد ملاحظات</p>
+                </td>
+                <td>
+                    <p>انتخب</p>
+                </td>
+                <td class="delete-td">
+                    <p><a data-toggle="modal" data-target="#muntakhebModel"><i class="fa fa-times"
+                                aria-hidden="true"></i></a>
+                    </p>
+                </td>
+            </tr>
+            <tr class="ntakhab">
+                <td scope="row">
+                    <p>طه عبدالله</p>
+                </td>
+                <td>
+                    <p>نضال</p>
+                </td>
+                <td>
+                    <p>ميرنا</p>
+                </td>
+                <td>
+                    <p>ذكر</p>
+                </td>
+                <td>
+                    <p>30/4/1999</p>
+                </td>
+                <td>
+                    <p>مسلم سنّي</p>
+                </td>
+                <td>
+                    <p>71</p>
+                </td>
+                <td>
+                    <p>الشمال</p>
+                </td>
+                <td>
+                    <p>طرابلس</p>
+                </td>
+                <td>
+                    <p>71123456</p>
+                </td>
+                <td>
+                    <p>لا يوجد ملاحظات</p>
+                </td>
+                <td>
+                    <p>انتخب</p>
+                </td>
+                <td class="delete-td">
+                    <p><a data-toggle="modal" data-target="#muntakhebModel"><i class="fa fa-times"
+                                aria-hidden="true"></i></a>
+                    </p>
+                </td>
+            </tr>
+            <tr class="ntakhab">
+                <td scope="row">
+                    <p>طه عبدالله</p>
+                </td>
+                <td>
+                    <p>نضال</p>
+                </td>
+                <td>
+                    <p>ميرنا</p>
+                </td>
+                <td>
+                    <p>ذكر</p>
+                </td>
+                <td>
+                    <p>30/4/1999</p>
+                </td>
+                <td>
+                    <p>مسلم سنّي</p>
+                </td>
+                <td>
+                    <p>71</p>
+                </td>
+                <td>
+                    <p>الشمال</p>
+                </td>
+                <td>
+                    <p>طرابلس</p>
+                </td>
+                <td>
+                    <p>71123456</p>
+                </td>
+                <td>
+                    <p>لا يوجد ملاحظات</p>
+                </td>
+                <td>
+                    <p>انتخب</p>
+                </td>
+                <td class="delete-td">
+                    <p><a data-toggle="modal" data-target="#muntakhebModel"><i class="fa fa-times"
+                                aria-hidden="true"></i></a>
+                    </p>
+                </td>
+            </tr>
+            <tr class="ntakhab">
+                <td scope="row">
+                    <p>طه عبدالله</p>
+                </td>
+                <td>
+                    <p>نضال</p>
+                </td>
+                <td>
+                    <p>ميرنا</p>
+                </td>
+                <td>
+                    <p>ذكر</p>
+                </td>
+                <td>
+                    <p>30/4/1999</p>
+                </td>
+                <td>
+                    <p>مسلم سنّي</p>
+                </td>
+                <td>
+                    <p>71</p>
+                </td>
+                <td>
+                    <p>الشمال</p>
+                </td>
+                <td>
+                    <p>طرابلس</p>
+                </td>
+                <td>
+                    <p>71123456</p>
+                </td>
+                <td>
+                    <p>لا يوجد ملاحظات</p>
+                </td>
+                <td>
+                    <p>انتخب</p>
+                </td>
+                <td class="delete-td">
+                    <p><a data-toggle="modal" data-target="#muntakhebModel"><i class="fa fa-times"
+                                aria-hidden="true"></i></a>
+                    </p>
                 </td>
             </tr>
         </tbody>
@@ -444,5 +497,28 @@
 {{-- ## END TABLE 1 ## --}}
 
 {{-- ## END MAIN ## --}}
+
+
+<!-- muntakheb modal -->
+<div class="modal fade text-center" id="muntakhebModel" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">هل فعلا تريد ازالة هذا المُنتَخِب ؟</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>قم بالضّغط على نعم للتّأكيد</p>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <a type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</a>
+                <a type="button" class="btn btn-danger">نعم</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 @endsection

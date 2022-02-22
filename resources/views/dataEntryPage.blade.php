@@ -34,6 +34,9 @@
                     <th>
                         <p>الصورة الشّخصية</p>
                     </th>
+                    <th>
+                        <p>(ازالة)</p>
+                    </th>
                 </tr>
             </thead>
             <tbody>
@@ -54,12 +57,39 @@
                         </div>
                         </p>
                     </td>
+                    <td class="delete-without-border-td">
+                        <p><a data-toggle="modal" data-target="#dataEntryModel"><i class="fa fa-times"
+                                    aria-hidden="true"></i></a>
+                        </p>
+                    </td>
                 </tr>
             </tbody>
         </table>
     </div>
     {{-- ## END TABLE 1 ## --}}
 
+</div>
+
+<!-- data entry modal -->
+<div class="modal fade text-center" id="dataEntryModel" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"> هل فعلا تريد ازالة هذا Data Entry ؟</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>قم بالضّغط على نعم للتّأكيد</p>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <a type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</a>
+                <a type="button" class="btn btn-danger">نعم</a>
+            </div>
+        </div>
+    </div>
 </div>
 
 
