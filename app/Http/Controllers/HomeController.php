@@ -37,6 +37,42 @@ class HomeController extends Controller
         return view('profilePage');
     }
 
+    // ##################### CATEGORIES PAGES
+    public function dataEntryPage()
+    {
+        return view('dataEntryPage');
+    }
+
+    public function murakebPage()
+    {
+        return view('murakebPage');
+    }
+
+    public function mandoubMutajawwelPage()
+    {
+        return view('mandoubMutajawwelPage');
+    }
+
+    public function mandoubSebetPage()
+    {
+        return view('mandoubSebetPage');
+    }
+
+    public function munassekPage()
+    {
+        return view('munassekPage');
+    }
+
+    public function alMuntakhibinPage()
+    {
+        return view('alMuntakhibinPage');
+    }
+
+    public function lamYantakhibouPage()
+    {
+        return view('lamYantakhibouPage');
+    }
+
     // ##################### ADDING PAGES
     public function addDataEntryPage()
     {
@@ -61,5 +97,15 @@ class HomeController extends Controller
     public function addMunassekPage()
     {
         return view('addMunassekPage');
+    }
+
+    public function addMuntakhebPage()
+    {
+        return view('addMuntakhebPage');
+    }
+
+    public function addMurashahPage()
+    {
+        return view('addMurashahPage');
     }
 }

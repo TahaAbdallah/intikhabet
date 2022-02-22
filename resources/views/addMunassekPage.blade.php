@@ -38,7 +38,7 @@
 
             <div class="row justify-content-between align-items-center adding-content-row">
                 <input type="text">
-                <p>: عنوان المندوب</p>
+                <p>: عنوان المنسّق</p>
             </div>
 
             <div class="row justify-content-between align-items-center adding-content-row">

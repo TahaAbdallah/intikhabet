@@ -48,26 +48,26 @@
                 <div class="nav-2-tables">
                     <p>المستخدمين</p>
                     <div class="nav-2-tables-content">
-                        <a href="{{ route('addDataEntryPage') }}">Data Entry</a>
-                        <a href="{{ route('addMurakebPage') }}">المراقبين</a>
-                        <a href="{{ route('addMandubMutajawwelPage') }}">المندوبين متجولين</a>
-                        <a href="{{ route('addMandubSebetPage') }}">المندوبين الثابتين</a>
-                        <a href="{{ route('addMunassekPage') }}">المنسقين</a>
+                        <a href="{{ route('dataEntryPage') }}">Data Entry</a>
+                        <a href="{{ route('murakebPage') }}">المراقبين</a>
+                        <a href="{{ route('mandoubMutajawwelPage') }}">المندوبين المتجولين</a>
+                        <a href="{{ route('mandoubSebetPage') }}">المندوبين الثابتين</a>
+                        <a href="{{ route('munassekPage') }}">المنسقين</a>
                     </div>
                 </div>
 
                 <div class="nav-2-tables">
                     <p>لوائح الشّطب</p>
                     <div class="nav-2-tables-content">
-                        <a href="">المنتخِبين</a>
-                        <a href="">لم ينتخبوا بعد</a>
+                        <a href="{{ route('alMuntakhibinPage') }}">المنتخِبين</a>
+                        <a href="{{ route('lamYantakhibouPage') }}">لم ينتخبوا بعد</a>
                     </div>
                 </div>
 
                 <div class="nav-2-tables">
                     <p>المرشّحين</p>
                     <div class="nav-2-tables-content">
-                        <a href="#almurashahin">جميع المرشّحين</a>
+                        <a href="{{ route('index') }}/#almurashahin">جميع المرشّحين</a>
                     </div>
                 </div>
 
@@ -89,6 +89,7 @@
 
     <!-- Optional JavaScript -->
     <script type="text/javascript" src="{{ URL::asset('js/hide-nav.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::asset('js/akdiyeMuhafazat.js') }}"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

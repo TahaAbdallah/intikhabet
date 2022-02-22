@@ -14,19 +14,19 @@
     </div>
     <form class="edit-profile-page-form" action="">
         <div class="row edit-profile-form-contents">
-            <div class="row justify-content-center align-items-center profile-content-row">
-                <input type="file">
+            <div class="row justify-content-between align-items-center profile-content-row">
+                <input type="file" class="file-input">
                 <p>تعديل الصورة الشّخصية</p>
             </div>
-            <div class="row justify-content-end align-items-center profile-content-row">
-                <input type="text" value="طه عبدالله">
+            <div class="row justify-content-between align-items-center profile-content-row">
+                <input type="text" value="طه عبدالله" autofocus>
                 <p> : الاسم</p>
             </div>
-            <div class="row justify-content-end align-items-center profile-content-row">
+            <div class="row justify-content-between align-items-center profile-content-row">
                 <input type="email" value="taha.abdallah1999@gmail.com">
                 <p> : الايميل</p>
             </div>
-            <div class="row justify-content-end align-items-center profile-content-row">
+            <div class="row justify-content-between align-items-center profile-content-row">
                 <input type="number" value="71123456">
                 <p> : رقم الهاتف</p>
             </div>
@@ -37,7 +37,7 @@
                 </a>
             </div>
             @endif
-            <button class="edit-profile-page-edit-btn" href="">حفظ التعديلات</button>
+            <button class="adding-page-btn" href="">حفظ التعديلات</button>
         </div>
     </form>
 </div>

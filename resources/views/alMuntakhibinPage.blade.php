@@ -2,15 +2,20 @@
 
 @section('mainContent')
 
+<div class="back-home-cont">
+    <a class="back-home" href="{{ route('index') }}"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+        الصفحة الرّئيسية</a>
+    <hr>
+</div>
+
 <div class="container row align-items-center justify-content-around m-auto main-cont">
     <input class="search-bar" type="search" name="" id="" placeholder="بحث">
-    <a class="adding-btn" href="{{ route('addMuntakhebPage') }}">اضافة مُنتَخِب <i class="fa fa-plus"
-            aria-hidden="true"></i></a>
+    <a class="adding-btn" href="">اضافة مُنتَخِب <i class="fa fa-plus" aria-hidden="true"></i></a>
 </div>
 
 {{-- ## START TABLE 1 ## --}}
 <div class="container">
-    <h5 class="table-title">لوائح الشّطب</h5>
+    <h5 class="table-title">المُنتخِبين</h5>
     <table class="table table-responsive text-center content-table">
         <thead>
             <tr>
@@ -91,7 +96,7 @@
                     <p>انتخب</p>
                 </td>
             </tr>
-            <tr class="mantakhab">
+            <tr class="ntakhab">
                 <td scope="row">
                     <p>طه عبدالله</p>
                 </td>
@@ -126,7 +131,7 @@
                     <p>لا يوجد ملاحظات</p>
                 </td>
                 <td>
-                    <p>لم ينتخب</p>
+                    <p>انتخب</p>
                 </td>
             </tr>
             <tr class="ntakhab">
@@ -167,7 +172,7 @@
                     <p>انتخب</p>
                 </td>
             </tr>
-            <tr class="mantakhab">
+            <tr class="ntakhab">
                 <td scope="row">
                     <p>طه عبدالله</p>
                 </td>
@@ -202,7 +207,7 @@
                     <p>لا يوجد ملاحظات</p>
                 </td>
                 <td>
-                    <p>لم ينتخب</p>
+                    <p>انتخب</p>
                 </td>
             </tr>
             <tr class="ntakhab">
@@ -243,7 +248,7 @@
                     <p>انتخب</p>
                 </td>
             </tr>
-            <tr class="mantakhab">
+            <tr class="ntakhab">
                 <td scope="row">
                     <p>طه عبدالله</p>
                 </td>
@@ -278,7 +283,7 @@
                     <p>لا يوجد ملاحظات</p>
                 </td>
                 <td>
-                    <p>لم ينتخب</p>
+                    <p>انتخب</p>
                 </td>
             </tr>
             <tr class="ntakhab">
@@ -319,7 +324,7 @@
                     <p>انتخب</p>
                 </td>
             </tr>
-            <tr class="mantakhab">
+            <tr class="ntakhab">
                 <td scope="row">
                     <p>طه عبدالله</p>
                 </td>
@@ -354,7 +359,7 @@
                     <p>لا يوجد ملاحظات</p>
                 </td>
                 <td>
-                    <p>لم ينتخب</p>
+                    <p>انتخب</p>
                 </td>
             </tr>
             <tr class="ntakhab">
@@ -395,7 +400,7 @@
                     <p>انتخب</p>
                 </td>
             </tr>
-            <tr class="mantakhab">
+            <tr class="ntakhab">
                 <td scope="row">
                     <p>طه عبدالله</p>
                 </td>
@@ -430,179 +435,13 @@
                     <p>لا يوجد ملاحظات</p>
                 </td>
                 <td>
-                    <p>لم ينتخب</p>
+                    <p>انتخب</p>
                 </td>
             </tr>
         </tbody>
     </table>
 </div>
 {{-- ## END TABLE 1 ## --}}
-
-
-
-
-
-{{-- ## START TABLE 2 ## --}}
-<h5 class="table-title-2 mb-3" id="almurashahin">المرشّحين</h5>
-<div class="text-center">
-    <a class="adding-btn" href="{{ route('addMurashahPage') }}">اضافة مُرَشّح <i class="fa fa-plus"
-            aria-hidden="true"></i></a>
-</div>
-
-<div class="container">
-    <table class="table table-responsive text-center content-table-2 mt-3">
-        <thead>
-            <tr>
-                <th>
-                    <p>الاسم</p>
-                </th>
-                <th>
-                    <p>اسم اللائحة</p>
-                </th>
-                <th>
-                    <p>المحافظة</p>
-                </th>
-                <th>
-                    <p>القضاء</p>
-                </th>
-                <th>
-                    <p>عدد الأصوات</p>
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-
-            <tr>
-                <td scope="row">
-                    <p>طه عبدالله</p>
-                </td>
-                <td>
-                    <p>سوا للبنان</p>
-                </td>
-                <td>
-                    <p>طرابلس</p>
-                </td>
-                <td>
-                    <p>طرابلس</p>
-                </td>
-                <td>
-                    <p>165</p>
-                </td>
-            </tr>
-
-            <tr>
-                <td scope="row">
-                    <p>طه عبدالله</p>
-                </td>
-                <td>
-                    <p>سوا للبنان</p>
-                </td>
-                <td>
-                    <p>طرابلس</p>
-                </td>
-                <td>
-                    <p>طرابلس</p>
-                </td>
-                <td>
-                    <p>165</p>
-                </td>
-            </tr>
-
-            <tr>
-                <td scope="row">
-                    <p>طه عبدالله</p>
-                </td>
-                <td>
-                    <p>سوا للبنان</p>
-                </td>
-                <td>
-                    <p>طرابلس</p>
-                </td>
-                <td>
-                    <p>طرابلس</p>
-                </td>
-                <td>
-                    <p>165</p>
-                </td>
-            </tr>
-
-            <tr>
-                <td scope="row">
-                    <p>طه عبدالله</p>
-                </td>
-                <td>
-                    <p>سوا للبنان</p>
-                </td>
-                <td>
-                    <p>طرابلس</p>
-                </td>
-                <td>
-                    <p>طرابلس</p>
-                </td>
-                <td>
-                    <p>165</p>
-                </td>
-            </tr>
-
-            <tr>
-                <td scope="row">
-                    <p>طه عبدالله</p>
-                </td>
-                <td>
-                    <p>سوا للبنان</p>
-                </td>
-                <td>
-                    <p>طرابلس</p>
-                </td>
-                <td>
-                    <p>طرابلس</p>
-                </td>
-                <td>
-                    <p>165</p>
-                </td>
-            </tr>
-
-            <tr>
-                <td scope="row">
-                    <p>طه عبدالله</p>
-                </td>
-                <td>
-                    <p>سوا للبنان</p>
-                </td>
-                <td>
-                    <p>طرابلس</p>
-                </td>
-                <td>
-                    <p>طرابلس</p>
-                </td>
-                <td>
-                    <p>165</p>
-                </td>
-            </tr>
-
-            <tr>
-                <td scope="row">
-                    <p>طه عبدالله</p>
-                </td>
-                <td>
-                    <p>سوا للبنان</p>
-                </td>
-                <td>
-                    <p>طرابلس</p>
-                </td>
-                <td>
-                    <p>طرابلس</p>
-                </td>
-                <td>
-                    <p>165</p>
-                </td>
-            </tr>
-
-        </tbody>
-    </table>
-</div>
-{{-- ## END TABLE 2 ## --}}
-
 
 {{-- ## END MAIN ## --}}
 
