@@ -471,6 +471,7 @@ nav {
     color: white;
     font-size: 15px;
     transition: 0.3s ease;
+    cursor: pointer;
 }
 
 .delete-td a:hover {
@@ -481,6 +482,7 @@ nav {
     color: white;
     font-size: 15px;
     transition: 0.3s ease;
+    cursor: pointer;
 }
 
 .delete-without-border-td a:hover {
@@ -520,7 +522,7 @@ nav {
 
 .back-home {
     color: white;
-    font-family: DroidKufi-regular;
+    font-family: DroidKufi-bold;
     font-size: 12px;
     text-align: center;
 }
