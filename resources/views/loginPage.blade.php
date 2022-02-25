@@ -28,6 +28,16 @@
                     <img class="login-img" src="{{ asset('images/lebanonflag.png') }}">
                 </div>
                 <div class="login-content">
+                    @error('email')
+                    <div class="alert alert-danger" role="alert">
+                        {{ $message }}
+                    </div>
+                    @enderror
+                    @error('password')
+                    <div class="alert alert-danger" role="alert">
+                        {{ $message }}
+                    </div>
+                    @enderror
                     <input type="email" name="email" placeholder="الرّجاء ادخل الايميل" autofocus>
                     <input type="password" name="password" placeholder="الباسورد">
                     <div class="row remember-me-cont">

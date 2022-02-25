@@ -44,6 +44,12 @@ body {
     justify-content: space-between;
 }
 
+@media(max-width:769px) {
+    .login-form {
+        height: 100%;
+    }
+}
+
 .login-img-cont {
     width: 250px;
     height: auto;

@@ -28,14 +28,26 @@
                 <img onclick="showNav()" class="burger-btn" id="burger-btn" src="{{ asset('images/burger-btn.png') }}">
                 <img onclick="hideNav()" class="close-btn hide-btn" id="close-btn"
                     src="{{ asset('images/close-btn.png') }}">
-                <a href="" class="logout-btn">تسجيل خروج</a>
+
+                <a class="logout-btn" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                  document.getElementById('logout-form').submit();">
+                    تسجيل خروج
+                </a>
+
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                    @csrf
+                </form>
+
+
+                {{-- <a href="{{ route('logout') }}" class="logout-btn">تسجيل خروج</a> --}}
+
             </div>
             <div>
                 <div class="row align-items-center">
                     <div class="text-right">
-                        <a href="{{ route('profilePage') }}" class="p-0 m-0 profile-name">طه عبدالله</a>
-                        <p class="p-0 m-0 role">taha.abdallah1999@gmail.com</p>
-                        <p class="p-0 m-0 role">دورك : مسؤول</p>
+                        <a href="{{ route('profilePage') }}" class="p-0 m-0 profile-name">{{ auth()->user()->name }}</a>
+                        <p class="p-0 m-0 role">{{ auth()->user()->email }}</p>
+                        <p class="p-0 m-0 role">دورك : {{ auth()->user()->role }}</p>
                     </div>
                     <div class="profile-img-cont">
                         <img class="profile-img" src="{{ asset('images/IMG_20211212_164914_346.jpg') }}">
