@@ -17,10 +17,6 @@ use App\Http\Controllers\LawaehShatebController;
 
 Auth::routes();
 
-Route::get('/', function () {
-
-    return view('home');
-});
 
 // Route::group(['middleware' => 'guest'], function () {
 
@@ -69,7 +65,7 @@ Route::get('file-import-export', [LawaehShatebController::class, 'fileImportExpo
 Route::post('file-import', [LawaehShatebController::class, 'fileImport'])->name('file-import');
 Route::get('file-export', [LawaehShatebController::class, 'fileExport'])->name('file-export');
 
-
+Route::get('/', [App\Http\Controllers\Admin\AdminController::class, 'loginPage'])->name('loginPage');
 
 Route::prefix('admin')->name('admin.')->group(function () {
 
