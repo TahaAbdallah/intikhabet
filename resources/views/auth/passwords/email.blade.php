@@ -25,7 +25,7 @@
 
             <div>
                 <div class="text-center">
-                    <a class="back-home" href="{{ route('loginPage') }}"><i class="fa fa-arrow-left"
+                    <a class="back-home" href="{{ route('admin.loginPage') }}"><i class="fa fa-arrow-left"
                             aria-hidden="true"></i>
                         تسجيل الدّخول</a>
                     <hr>

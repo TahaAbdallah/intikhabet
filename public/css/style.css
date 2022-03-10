@@ -50,12 +50,19 @@ body {
     }
 }
 
+.login-form h1 {
+    font-family: DroidKufi-regular;
+    color: white;
+}
+
 .login-img-cont {
     width: 250px;
     height: auto;
     border: 2px solid white;
     margin-top: 50px;
     margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
     border-radius: 10px;
 }
 
@@ -387,10 +394,7 @@ nav {
     background-color: #fff;
     text-align: center;
     padding: 15px 15px;
-    margin-top: 15px;
     margin-bottom: 10px;
-    margin-left: 30%;
-    margin-right: 30%;
     font-size: 15px;
 }
 
@@ -400,9 +404,10 @@ nav {
     border-collapse: separate;
     margin: auto;
     direction: rtl;
+    margin-bottom: 20px;
 }
 
-.content-table-2 {
+.lawaeh-table {
     border: 1px solid white;
     padding: 10px 15px;
     border-collapse: separate;
@@ -412,14 +417,14 @@ nav {
 }
 
 @media(max-width:600px) {
-    .content-table-2 {
+    .lawaeh-table {
         width: auto;
     }
 }
 
 
 .content-table thead th,
-.content-table-2 thead th {
+.lawaeh-table thead th {
     color: white;
     font-family: DroidKufi-bold;
     font-size: 12px;
@@ -430,13 +435,13 @@ nav {
 }
 
 .content-table thead th p,
-.content-table-2 thead th p {
+.lawaeh-table thead th p {
     border-bottom: 1px solid #fff;
     padding-bottom: 10px;
 }
 
 .content-table td,
-.content-table-2 td {
+.lawaeh-table td {
     color: white;
     font-family: DroidKufi-regular;
     padding: 0px 7px;
@@ -446,7 +451,7 @@ nav {
 }
 
 .content-table td p,
-.content-table-2 td p {
+.lawaeh-table td p {
     margin: 0px;
     padding: 8px;
 }
@@ -458,6 +463,22 @@ nav {
     text-align: center;
     margin-top: 25px;
 }
+
+/* ############# PAGINATION */
+.pagination {
+    justify-content: center;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #585858b0;
+    border: 1px solid white;
+}
+
+.pagination .page-link {
+    background-color: #fff;
+    color: #f00b0f79;
+}
+
 
 /* ####### FOR TESTING PURPOSES */
 .ntakhab {
@@ -513,6 +534,144 @@ nav {
 .modal-footer a {
     font-family: DroidKufi-bold;
     color: white !important;
+}
+
+/* ############################################ LAWAEH PAGE  */
+
+.lawaeh-title {
+    font-family: DroidKufi-regular;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+.hasel-title {
+    font-family: DroidKufi-regular;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+.hasel-entikhabi-cont {
+    margin-bottom: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.calculate-hasel {
+    font-family: DroidKufi-regular;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0px 10px;
+    border: none;
+    color: black !important;
+}
+
+.hasel-entikhabi-cont p {
+    font-family: DroidKufi-regular;
+    color: white;
+    margin: 0px;
+    padding: 0px 10px;
+    font-size: 12px;
+}
+
+.equation-row {
+    flex-direction: column;
+}
+
+.hasel-entikhabi-cont input {
+    color: white;
+    font-family: DroidKufi-regular;
+    background-color: transparent;
+    margin-right: 10px;
+    text-align: right;
+    padding: 5px;
+    outline: none;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid white;
+    transition: 0.3s ease;
+}
+
+.hasel-entikhabi-cont input:focus {
+    outline: none;
+    /* border: 3px solid rgba(255, 255, 255, 0.637); */
+}
+
+/* Chrome, Safari, Edge, Opera */
+.hasel-entikhabi-cont input::-webkit-outer-spin-button,
+.hasel-entikhabi-cont input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.hasel-entikhabi-cont input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.lawaeh-container {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.lawaeh-row-cont {
+    flex-direction: row-reverse;
+}
+
+.lawaeh-table-sidebar p {
+    font-family: DroidKufi-regular;
+    color: white;
+}
+
+.add-murashah-cont {
+    padding: 0px 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.add-murashah-cont a {
+    font-family: boutros;
+    color: black;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0px 15px;
+}
+
+.lawaeh-table-img-cont {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+.lawaeh-table-img-cont img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#takhattatAlHasel {
+    background-color: #fff;
+    color: black;
+    width: fit-content;
+    padding: 15px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.fa-check {
+    color: green;
 }
 
 /* ############################################ PROFILE PAGE  */

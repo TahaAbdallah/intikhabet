@@ -25,8 +25,6 @@ class CreateUsersTable extends Migration
             $table->string('address')->nullable();
             $table->string('region')->nullable();
             $table->text('profile_img')->nullable();
-            $table->string('role');
-            $table->string('user_type')->default('USER')->comment('USER for user / ADMIN for admin / DATA for data entry / MURAKEB for murakeb / MANDUB-M for mandub mutajawwel / MANDUB-S for mandub sebet / MUNASSEK for munassek');
             $table->timestamps();
         });
     }
